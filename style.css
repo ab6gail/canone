@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Champagne';
+  src: url(font/Champagne-LimousinesBold.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+background-color:#fff;
+font-family: 'Champagne', sans-serif;
+margin: 0;
+padding: 40px;
+}
+.card {
+background-image: url(img/fondo.jpg);
+max-width: 400px;
+margin: auto;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+text-align: center;
+}
+.name {
+  font-size: 1.8rem;
+  color: #743014;
+  margin-bottom: 0.3rem;
+}
+.title {
+  font-size: 1.0rem;
+  color: #442D1C;
+  margin-bottom: 1.2rem;
+}
+.contact i {
+  margin-right: 0.6rem;
+  color: #743014;
+}
+.contact p {
+  color: #442D1C;
+}
+img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+button {
+background-color: #84592B;
+color: #e8d1a7;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+margin-top: 10px;
+}
+button:hover {
+background-color: #e8d1a7;
+}
+
+img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+}
+button {
+background-color: #84592B;
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+margin-top: 10px;
+}
+button:hover {
+background-color: #e8d1a7;
+}
